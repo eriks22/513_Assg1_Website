@@ -7,16 +7,24 @@
 img{
     max-width: 100%;
     height: auto;
-    border: 1px solid #cccccc;
-    padding: 2px;
+
 }
 
-.myclass{
+.image{
+    width: 100%;
+}
+
+.myclass {
     font-size: 15px;
+    text-align: center;
 }
 
-.myclass h2{
-    text-align: center;
+.myclass table tr th{
+    padding: 5px;
+}
+
+.myclass table tr img{
+    padding: 5px;
 }
 
 table{
@@ -31,9 +39,10 @@ body{
     background-color: grey;
     width: 100%;
     height: 50px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     color: white;
+    
 }
 
 .header ul{
@@ -47,7 +56,8 @@ body{
 }
 
 .header ul li a{
-    color:white
+    color:white;
+    margin-left: 20px;
 }
 
 .table th td{
@@ -64,7 +74,7 @@ body{
 .banner{
     opacity:0.60;
     width:100%;
-    height: 250px;
+    height: 110px;
     background-color: #254061;
     color: white;
     position: relative;
@@ -74,7 +84,7 @@ body{
 .banner h1{
     text-align: center;
     font-size: 50px;
-    line-height: 250px;
+    line-height: 110px;
 }
 
 .content{
@@ -87,21 +97,34 @@ body{
 }
 
 .timage{
-    height:400px;
+    height:70%;
     vertical-align: middle;
     text-align:center;
 }
 .timage img{
     display:block;
     margin: auto;
+    width:100%
 }
 .pcontent{
     padding:10px;
     
 }
 .contactUs{
-    
+    text-align: center;
+    padding: 5px;
 }
+
+.contactUs form, p {
+    background-color: white;
+    padding: 5px;
+
+}
+
+.contactUs h2, h3 {
+    padding: 10px;
+}
+
 .inputbox{
     padding: 2px;
     text-decoration-color: skyblue;
