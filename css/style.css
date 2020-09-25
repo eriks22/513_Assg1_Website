@@ -42,7 +42,7 @@ body{
     font-size: 20px;
     text-align: center;
     color: white;
-    
+    letter-spacing:4px;
 }
 
 .header ul{
@@ -101,15 +101,18 @@ body{
     vertical-align: middle;
     text-align:center;
 }
+
 .timage img{
     display:block;
     margin: auto;
     width:100%
 }
+
 .pcontent{
     padding:10px;
     
 }
+
 .contactUs{
     text-align: center;
     padding: 5px;
@@ -130,9 +133,11 @@ body{
     text-decoration-color: skyblue;
 
 }
+
 .sendbutton{
     padding: 2px;
 }
+
 .footer{
     width: 100%;
     background-color: #254061;
